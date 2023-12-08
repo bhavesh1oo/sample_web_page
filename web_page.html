@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 100px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            background-color: #f0f0f0;
+            width: 20%;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            width: 80%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <p>
+                Predictive Analytics entails predicting future events with the use of past data analysis and pattern recognition.
+                 To predict patterns or behaviours, it uses machine learning and statistical algorithms.
+                However, Prescriptive Analytics goes one step further and makes recommendations for activities to maximise results. 
+                It makes targeted suggestions by utilising data, mathematical models, and optimisation approaches.
+                 Prescriptive analytics helps decision-makers make the optimal decisions by providing insights to accomplish objectives 
+                 and enhance overall performance, as opposed to merely speculating about potential outcomes.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
